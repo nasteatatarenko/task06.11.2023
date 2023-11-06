@@ -390,7 +390,16 @@ main{
     background-color: #25975A;
     padding: 0 20px 0 20px;
     color: #ffffff;
-    line-height: 40px;
+    line-height: 50px;
+    border: solid 1px #ffffff;
+    text-align: center!important;
+    
+}
+.green-time1{
+    background-color: #25975A;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+    line-height: 30px;
     border: solid 1px #ffffff;
     text-align: center!important;
     
@@ -405,20 +414,45 @@ main{
 
 .white-orar{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 110%;
-    height: 80px;
+    height: 100px;
     background-color: #ffffff;
     border: 1px solid gray;
     color: #666;
-    font-weight: 900;
     line-height: 20px;
+    margin: 0;
+    padding: 0;
 }
-
-
+.white-orar p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.white-orar h1{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+.white-orar1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110%;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    color: #666;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
 .green-time:hover{
     background-color: bisque;
     color: #25975A;
